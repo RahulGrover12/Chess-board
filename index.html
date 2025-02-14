@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Chess Board</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-center text-3xl shadow-md shadow-gray-200 mt-3 text-center"
+    >
+      Chess board
+    </header>
+    <main
+      class="flex flex-col justify-center items-center text-l font-medium mt-6"
+    >
+      <p class="mb-3">Click on any cell to color diagonally</p>
+      <div class="board h-137 w-136.5 border flex flex-wrap">
+        <!-- <div class="bg-black h-17 w-17"></div> -->
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
